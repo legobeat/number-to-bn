@@ -1,53 +1,27 @@
 ## number-to-bn
 
 <div>
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/silentcicero/number-to-bn">
-    <img src="https://david-dm.org/silentcicero/number-to-bn.svg"
-    alt="Dependency Status" />
-  </a>
-
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/silentcicero/number-to-bn#info=devDependencies">
-    <img src="https://david-dm.org/silentcicero/number-to-bn/dev-status.svg" alt="devDependency Status" />
-  </a>
-
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/SilentCicero/number-to-bn">
-    <img src="https://travis-ci.org/SilentCicero/number-to-bn.svg"
-    alt="Build Status" />
-  </a>
-
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/number-to-bn">
-    <img src="http://img.shields.io/npm/v/number-to-bn.svg"
+  <a href="https://www.npmjs.org/package/@metamask/number-to-bn">
+    <img src="http://img.shields.io/npm/v/@metamask/number-to-bn.svg"
     alt="NPM version" />
-  </a>
-
-  <a href="https://coveralls.io/r/SilentCicero/number-to-bn">
-    <img src="https://coveralls.io/repos/github/SilentCicero/number-to-bn/badge.svg" alt="Test Coverage" />
-  </a>
-
-  <!-- Javascript Style -->
-  <a href="http://airbnb.io/javascript/">
-    <img src="https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg" alt="js-airbnb-style" />
   </a>
 </div>
 
 <br />
 
-A simple method to convert integer or hex integer numbers to BN.js object instances. Does not supprot decimal numbers.
+A simple method to convert integer or hex integer numbers to BN.js object instances. Does not support decimal numbers.
 
 ## Install
 
 ```
-npm install --save number-to-bn
+npm install --save @metamask/number-to-bn
 ```
 
 ## Usage
 
 ```js
-const numberToBN = require('number-to-bn');
+const numberToBN = require('@metamask/number-to-bn');
 
 console.log(numberToBN('-1'));
 
@@ -85,7 +59,7 @@ console.log(numberToBN(null)); // or {}, [], undefined, 9.9
 ## Important documents
 
 - [Changelog](CHANGELOG.md)
-- [License](https://raw.githubusercontent.com/silentcicero/number-to-bn/master/LICENSE)
+- [License](https://raw.githubusercontent.com/MetaMask/number-to-bn/main/LICENSE)
 
 ## Licence
 
