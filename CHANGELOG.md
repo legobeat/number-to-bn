@@ -1,3 +1,9 @@
+# 1.7.1 -- fix correctness
+
+1. Update bn.js to fix hex encoding bug for certain large numbers
+2. Add package-lock.json
+3. fork as @metamask/number-to-bn
+
 # 1.7.0 -- remove console log
 
 1. Remove bad console log
