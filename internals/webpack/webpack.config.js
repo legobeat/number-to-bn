@@ -1,4 +1,5 @@
-var webpack = require('webpack'); // eslint-disable-line
+const path = require('path');
+const webpack = require('webpack');
 
 var env = process.env.NODE_ENV;   // eslint-disable-line
 var filename = 'number-to-bn';      // eslint-disable-line
@@ -9,7 +10,7 @@ var config = {
     './src/index.js',
   ],
   output: {
-    path: 'dist',
+    path: path.resolve(path.join(__dirname, '../../dist')),
     filename: filename + '.js',       // eslint-disable-line
     library: library,                 // eslint-disable-line
     libraryTarget: 'umd',
@@ -43,7 +44,6 @@ if (env === 'production') {
       screw_ie8: false,
     },
   }));
-  config.plugins.push(new webpack.optimize.DedupePlugin());
 }
 
 module.exports = config;
