@@ -1,6 +1,6 @@
 {
   "name": "@metamask/number-to-bn",
-  "version": "1.7.1",
+  "version": "1.7.0",
   "description": "A simple method that will convert numbers, hex, BN or bignumber.js object into a BN.js object.",
   "main": "src/index.js",
   "scripts": {
