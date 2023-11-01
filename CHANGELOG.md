@@ -5,12 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.7.1]
 ### Changed
-- fork as @metamask/number-to-bn
+- Update webpack from 2.1.0-beta.15 to 3.12.0
+- Rename package from number-to-bn to @metamask/number-to-bn
 
 ### Fixed
-- fix correctness
-  - Update bn.js to fix hex encoding bug for certain large numbers
+- Correctness bugfix: Update bn.js to fix hex encoding bug for certain large numbers
+- Deprecate nodejs <8.17, npm<6
 
 ## [1.7.0]
 ### Changed
@@ -59,7 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - License
   - basic exports
 
-[Unreleased]: https://github.com/MetaMask/number-to-bn/compare/v1.7.0...HEAD
+[Unreleased]: https://github.com/MetaMask/number-to-bn/compare/v1.7.1...HEAD
+[1.7.1]: https://github.com/MetaMask/number-to-bn/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/MetaMask/number-to-bn/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/MetaMask/number-to-bn/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/MetaMask/number-to-bn/compare/v1.4.0...v1.5.0
