@@ -5,18 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
-## [1.7.1]
 ### Changed
+- fork as @metamask/number-to-bn
+
+### Fixed
 - fix correctness
   - Update bn.js to fix hex encoding bug for certain large numbers
-  - Add package-lock.json
-  - fork as @metamask/number-to-bn
 
 ## [1.7.0]
 ### Changed
-- remove console log
-  - Remove bad console log
+- Remove bad console log
 
 ## [1.6.0]
 ### Changed
@@ -24,21 +22,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Empty hex 0x -> 0
 
 ## [1.5.0]
-### Changed
-- hex number fix
-  - Fixed hex number convetion, now if hex prefixed, always assumes base 16
+### Fixed
+- Fixed hex number convetion, now if hex prefixed, always assumes base 16
 
 ## [1.4.0]
-### Changed
-- fix hex number
-  - Fix hex number shim
-  - More test cases added
+### Fixed
+- Fix hex number shim
 
 ## [1.3.0]
+### Added
+- Added umd builds
+
 ### Changed
 - better everythign
   - Better error messages
-  - Added umd builds
   - Far more comprehensive testing coverage
   - Far more support for hex string coverage
   - Far more support for number string coverage
@@ -46,25 +43,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - More config
 
 ## [1.2.0]
-### Changed
+### Fixed
 - decimal number fix
   - now throws under decimal number
 
 ## [1.1.0]
-### Changed
+### Added
 - es5 support
-  - es5 support
 
 ## [0.0.1]
-### Changed
+### Added
 - number-to-bn
   - Basic testing
   - Basic docs
   - License
   - basic exports
 
-[Unreleased]: https://github.com/MetaMask/number-to-bn/compare/v1.7.1...HEAD
-[1.7.1]: https://github.com/MetaMask/number-to-bn/compare/v1.7.0...v1.7.1
+[Unreleased]: https://github.com/MetaMask/number-to-bn/compare/v1.7.0...HEAD
 [1.7.0]: https://github.com/MetaMask/number-to-bn/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/MetaMask/number-to-bn/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/MetaMask/number-to-bn/compare/v1.4.0...v1.5.0
